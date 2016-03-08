@@ -1,0 +1,30 @@
+{
+  "name": "immutable-react-example",
+  "version": "1.0.0",
+  "description": "Immutable & React Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config webpack.config.js --progress --colors --port 3000 --host 0.0.0.0 --content-base public --inline"
+  },
+  "author": "Devon Borysiewicz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dborysiewicz/immutable-react-example.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.1.19",
+    "babel-loader": "^6.1.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "immutable": "^3.7.6",
+    "react": "^0.14.7",
+    "react-bootstrap": "^0.28.3",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
